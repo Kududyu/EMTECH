@@ -1,3 +1,6 @@
+#Disclaimer#
+This is a project that is an implementation of what I learned so far on machine learning and deep learning
+
 ## Introduction
 
 This notebook demonstrates how to compare a `.jpeg` image uploaded by the user to a dataset contained in a `.zip` file. The goal is to predict the class of the uploaded image and compare it with the predicted class from the dataset.
