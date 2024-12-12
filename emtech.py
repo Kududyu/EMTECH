@@ -21,9 +21,6 @@ from sklearn.metrics import classification_report, accuracy_score
 import zipfile
 import os
 
-from google.colab import files
-uploaded = files.upload()
-
 for file_name in uploaded.keys():
     with zipfile.ZipFile(file_name, 'r') as zip_ref:
         zip_ref.extractall('/content/dataset')
